@@ -1,0 +1,503 @@
+/* science-gothic-regular - latin */
+/* m-plus-rounded-1c-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-regular.woff2") format("woff2"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-regular.woff") format("woff"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-regular.ttf") format("truetype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-regular.svg#MPLUSRounded1c") format("svg"); /* Legacy iOS */
+}
+/* m-plus-rounded-1c-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-500.woff2") format("woff2"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-500.woff") format("woff"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-500.ttf") format("truetype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-500.svg#MPLUSRounded1c") format("svg"); /* Legacy iOS */
+}
+/* m-plus-rounded-1c-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-700.woff2") format("woff2"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-700.woff") format("woff"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-700.ttf") format("truetype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-700.svg#MPLUSRounded1c") format("svg"); /* Legacy iOS */
+}
+/* m-plus-rounded-1c-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-800.woff2") format("woff2"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-800.woff") format("woff"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-800.ttf") format("truetype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-800.svg#MPLUSRounded1c") format("svg"); /* Legacy iOS */
+}
+/* m-plus-rounded-1c-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header h1/m-plus-rounded-1c-v20-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-900.woff2") format("woff2"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-900.woff") format("woff"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-900.ttf") format("truetype"), url("../fonts/header h1/m-plus-rounded-1c-v20-latin-900.svg#MPLUSRounded1c") format("svg"); /* Legacy iOS */
+}
+/* alegreya-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/text/alegreya-sans-v26-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/text/alegreya-sans-v26-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/text/alegreya-sans-v26-latin-regular.woff2") format("woff2"), url("../fonts/text/alegreya-sans-v26-latin-regular.woff") format("woff"), url("../fonts/text/alegreya-sans-v26-latin-regular.ttf") format("truetype"), url("../fonts/text/alegreya-sans-v26-latin-regular.svg#AlegreyaSans") format("svg"); /* Legacy iOS */
+}
+/* alegreya-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/text/alegreya-sans-v26-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/text/alegreya-sans-v26-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/text/alegreya-sans-v26-latin-500.woff2") format("woff2"), url("../fonts/text/alegreya-sans-v26-latin-500.woff") format("woff"), url("../fonts/text/alegreya-sans-v26-latin-500.ttf") format("truetype"), url("../fonts/text/alegreya-sans-v26-latin-500.svg#AlegreyaSans") format("svg"); /* Legacy iOS */
+}
+/* alegreya-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/text/alegreya-sans-v26-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/text/alegreya-sans-v26-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/text/alegreya-sans-v26-latin-700.woff2") format("woff2"), url("../fonts/text/alegreya-sans-v26-latin-700.woff") format("woff"), url("../fonts/text/alegreya-sans-v26-latin-700.ttf") format("truetype"), url("../fonts/text/alegreya-sans-v26-latin-700.svg#AlegreyaSans") format("svg"); /* Legacy iOS */
+}
+/* alegreya-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/text/alegreya-sans-v26-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/text/alegreya-sans-v26-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/text/alegreya-sans-v26-latin-800.woff2") format("woff2"), url("../fonts/text/alegreya-sans-v26-latin-800.woff") format("woff"), url("../fonts/text/alegreya-sans-v26-latin-800.ttf") format("truetype"), url("../fonts/text/alegreya-sans-v26-latin-800.svg#AlegreyaSans") format("svg"); /* Legacy iOS */
+}
+/* alegreya-sans-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/text/alegreya-sans-v26-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/text/alegreya-sans-v26-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/text/alegreya-sans-v26-latin-900.woff2") format("woff2"), url("../fonts/text/alegreya-sans-v26-latin-900.woff") format("woff"), url("../fonts/text/alegreya-sans-v26-latin-900.ttf") format("truetype"), url("../fonts/text/alegreya-sans-v26-latin-900.svg#AlegreyaSans") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Science Gothic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/header_reserve/science-gothic-v5-latin-regular.woff2") format("woff2"), url("../fonts/header_reserve/science-gothic-v5-latin-regular.woff") format("woff"), url("../fonts/header_reserve/science-gothic-v5-latin-regular.ttf") format("truetype"), url("../fonts/header_reserve/science-gothic-v5-latin-regular.svg#ScienceGothic") format("svg"); /* Legacy iOS */
+}
+/* science-gothic-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Science Gothic";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/header_reserve/science-gothic-v5-latin-500.woff2") format("woff2"), url("../fonts/header_reserve/science-gothic-v5-latin-500.woff") format("woff"), url("../fonts/header_reserve/science-gothic-v5-latin-500.ttf") format("truetype"), url("../fonts/header_reserve/science-gothic-v5-latin-500.svg#ScienceGothic") format("svg"); /* Legacy iOS */
+}
+/* science-gothic-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Science Gothic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/header_reserve/science-gothic-v5-latin-600.woff2") format("woff2"), url("../fonts/header_reserve/science-gothic-v5-latin-600.woff") format("woff"), url("../fonts/header_reserve/science-gothic-v5-latin-600.ttf") format("truetype"), url("../fonts/header_reserve/science-gothic-v5-latin-600.svg#ScienceGothic") format("svg"); /* Legacy iOS */
+}
+/* science-gothic-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Science Gothic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/header_reserve/science-gothic-v5-latin-700.woff2") format("woff2"), url("../fonts/header_reserve/science-gothic-v5-latin-700.woff") format("woff"), url("../fonts/header_reserve/science-gothic-v5-latin-700.ttf") format("truetype"), url("../fonts/header_reserve/science-gothic-v5-latin-700.svg#ScienceGothic") format("svg"); /* Legacy iOS */
+}
+/* science-gothic-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Science Gothic";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/header_reserve/science-gothic-v5-latin-800.woff2") format("woff2"), url("../fonts/header_reserve/science-gothic-v5-latin-800.woff") format("woff"), url("../fonts/header_reserve/science-gothic-v5-latin-800.ttf") format("truetype"), url("../fonts/header_reserve/science-gothic-v5-latin-800.svg#ScienceGothic") format("svg"); /* Legacy iOS */
+}
+/* science-gothic-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Science Gothic";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/header_reserve/science-gothic-v5-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/header_reserve/science-gothic-v5-latin-900.woff2") format("woff2"), url("../fonts/header_reserve/science-gothic-v5-latin-900.woff") format("woff"), url("../fonts/header_reserve/science-gothic-v5-latin-900.ttf") format("truetype"), url("../fonts/header_reserve/science-gothic-v5-latin-900.svg#ScienceGothic") format("svg"); /* Legacy iOS */
+}
+*, *,
+*::backdrop,
+*::after, html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border-style: inherit;
+  color: inherit;
+  background-color: inherit;
+}
+
+.ooll {
+  background-color: white;
+  clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+  padding: 1px 2px;
+  border-radius: 5px;
+}
+
+.ool {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 25px;
+  background-color: rgb(134, 184, 37);
+  clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+  color: black;
+  text-transform: uppercase;
+  background: linear-gradient(360deg, rgb(134, 184, 37) 15%, rgb(255, 255, 255) 150%, rgb(255, 255, 255) 23%);
+}
+
+.ool:hover {
+  background-color: #1f1f1f;
+}
+
+body {
+  background-image: url(../mediaContent/img/cementRoad22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-fonts-first);
+  font-family: "Alegreya Sans" monospace;
+  font-size: 1.6vw;
+  width: 100%;
+}
+
+.container {
+  max-width: 1380px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+}
+header .header_section {
+  position: absolute;
+  top: 150px;
+}
+
+h1 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 6.1vw;
+}
+h1 span {
+  color: var(--color-fonts-second);
+}
+
+h2 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+.decorheader {
+  position: relative;
+}
+.decorheader h2::after {
+  content: "";
+  width: 60%;
+  position: absolute;
+  top: 80%;
+  height: 2px;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(134, 184, 37) 25%, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 0%);
+  left: -4%;
+  transform: rotate(-1.09deg);
+}
+
+.decorheader {
+  position: relative;
+}
+.decorheader h3::after {
+  content: "";
+  width: 80%;
+  position: absolute;
+  top: 95%;
+  height: 2px;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(134, 184, 37) 25%, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 0%);
+  left: 0%;
+  transform: rotate(-1.09deg);
+}
+
+a {
+  color: #1f1f1f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+nav {
+  margin-top: 60px;
+}
+
+.header_nav ul {
+  display: flex;
+}
+
+main section {
+  padding-bottom: 60px;
+}
+
+article {
+  position: relative;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+}
+
+.artNote {
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+.artIMG img {
+  max-width: 100%;
+}
+
+.artHeader, .artDefinition, .artAction {
+  margin: 10px 25px;
+}
+
+.artDefinition {
+  display: flex;
+  justify-content: space-around;
+}
+
+.swiper-slide {
+  background-color: rgba(31, 31, 31, 0.5764705882);
+}
+
+.driveInstruction {
+  display: flex;
+  justify-content: space-between;
+}
+.driveInstruction .numb {
+  /* flex-grow: 1; */
+  flex-basis: 50% !important;
+}
+.driveInstruction .numb article span {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0.5;
+  top: 15px;
+}
+.driveInstruction .numb li:last-child {
+  flex-grow: 2;
+}
+
+.driveInstruction_header {
+  position: absolute;
+  bottom: 0;
+}
+
+.video img {
+  width: 100%;
+  height: 35vh;
+}
+
+.photorevew {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.photorevew_img img {
+  height: 380px !important;
+}
+
+/* header{
+    display: none;
+} */
+.video img {
+  height: 100vh;
+}
+
+table {
+  flex-grow: 1;
+  white-space: nowrap;
+  border-collapse: collapse;
+  border-radius: 25px;
+  background-color: rgba(31, 31, 31, 0.7529411765);
+}
+
+tr {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4392156863);
+}
+tr td {
+  border-right: 2px solid rgba(255, 255, 255, 0.4392156863);
+  border-left: 2px solid rgba(255, 255, 255, 0.4392156863);
+  width: 80px;
+}
+tr:last-child {
+  border-bottom: none;
+}
+tr td:last-child {
+  border-right: none;
+}
+
+table th {
+  text-align: start;
+}
+
+table td {
+  text-align: center;
+}
+
+.present {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.HandT {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-self: flex-start;
+}
+.HandT:last-child {
+  flex-grow: 1;
+}
+
+.present_cartIMG {
+  background-color: rgb(122, 74, 1);
+}
+
+.present_cartIMG img {
+  width: 600px;
+  height: 300px;
+  background-color: rgb(122, 74, 1);
+}
+
+.present_cart_text {
+  position: absolute;
+  z-index: 2;
+  bottom: 25px;
+  right: 0;
+  text-align: center;
+}
+
+:root {
+  --color-fonts-first:#f9f9f9;
+  --color-fonts-second:#89b825;
+  --color-fonts-third:#d7f349;
+  --color-fonts-forth:#011300 ;
+}
+
+/* *::after {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 110px;
+}
+body{
+    background-color: grey;
+
+
+
+    text-transform: uppercase;
+    color: white;
+}
+.container{
+    width: 1300px;
+    padding: 0px 10px;
+     margin: 0 auto;
+}
+.title_massege{
+    position: relative;
+
+}
+h2::after{
+         content: "";
+    width: 60%;
+    position: absolute;
+    top: 38%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 29) 0%, rgb(134, 184, 37) 25%, rgba(255, 255, 255, 85) 100%, rgb(0, 0, 0, 5) 0%);
+    left: 4%;
+    transform: rotate(-1.09deg);
+}
+  .heroIMG{
+
+    img{
+        width: 100vw;
+        height:80vh;
+    }
+  }  
+.header{
+    position: absolute;
+    top: 50px;
+}
+.title_nav{
+    background-color: white;
+    clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+    padding: 0 2px;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    padding: 10px 25px;
+    background-color: rgb(134, 184, 37);
+
+    clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+    color: black;
+    text-transform: uppercase;
+    background:linear-gradient(360deg, rgba(134, 184, 37,100) 15%, rgba(255, 255, 255, 99) 150%, rgb(255, 255, 255) 23%)
+
+
+}
+.title_navBtn{
+    display: flex;
+} *//*# sourceMappingURL=index.css.map */
