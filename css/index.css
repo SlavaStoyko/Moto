@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* m-plus-rounded-1c-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -283,6 +282,22 @@ img {
   height: 100%;
 }
 
+/* h2::after, h3::after, h4::after{
+         content: "";
+    width: 60%;
+    position: absolute;
+    top: 55%;
+    height: 4px;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(134, 184, 37) 25%, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 0%);
+    left: -4%;
+    transform: rotate(-1.09deg);
+}
+ h4::after{
+
+    top: 75%;
+    left: 25%;
+
+} */
 .list_cart {
   display: grid;
   grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr);
@@ -332,207 +347,6 @@ header {
   transform: translateY(-50%);
 }
 
-/* header{
-    display: none;
-} */
-/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ *
-
-/* /* .list_cart{
-    display: flex;
-    gap: 15px;
-    & .item{
-        height: 360px;
-        border: 1px solid green;
-        flex-basis: calc((100% - 45px) / 4);
-        flex-shrink: 0;
-        & article{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-
-        }
-    }
-} *
- .item{
-
-        height: 480px;
-        clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
-        background-color: rgba(30, 30, 30, 0.733);
-
- & article{
-            position: relative;
-           height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: stretch;
-& img, & h4, & dl{
-                align-self: center;
-
-& img{
-
-                flex-grow: 1;
-                overflow: hidden;
-             } 
-            } 
-        }
-    }
-.list_cart{
-    display: grid;
-    grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr);
-} 
-
-/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ *
-
-
-.list_cart{
-    grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr);
-    & .rull_item{
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-    border: none;
-    & article {
-        & img{
-            width: 100%;
-        object-fit: center;
-        margin: 0;
-    }
-        & img::after{
-            content: "";
-            width: 15px;
-            height: 100%;
-    width: 5px;
-    position: absolute;
-
-    background:linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 60%, rgb(0, 0, 0) 100%);
-
-    transform: rotate(-1.09deg);
-    z-index: 5;
-    }
-    & span, & h4{
-        position: absolute;
-        z-index: 2;
-        color: rgba(240, 255, 255, 0.747);
-    }
-    & span{
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        left: 15px;
-        font-size: 150px;
-
-    }
-    & h4{
-        position: absolute;
-        z-index: 2;
-        bottom: 0;
-    }
-    }
-}
-} 
-/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ *
-
-.present{
-    & .list_cart{
-        grid-template-columns: minmax(300px, 1fr) minmax(300px, 0.8fr);
-        gap: 15px;
-        & .present_item{
-            height: 360px;
-            background: none;
-            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-            & img{
-                border-radius: 45px;
-            }
-            & h4, & p{
-                position: absolute;
-                bottom: 0;
-            }
-            & h4{
-            bottom: 25px;
-            }
-            & p{
-                right: 25px;
-            }
-        }
-    }
-}
-
-table{
-
-    padding:15px;
-    width: 100%;
-    border-radius: 25px;
-    background-color: rgba(30, 30, 30, 0.733);
-    border-collapse: collapse;
-    font-size: 25px;
-}
-tr{
-
-    border-top: 5px solid #ffffffb6;
-    border-bottom: 5px solid #ffffffb6;
-
-}
-tr:first-child,tr:last-child{
-
-    border: none;
-
-}
-th{
-    padding:15px;
-    //border-left: 8px solid rgb(3, 7, 252);
-    text-align: left;
-}
-th:first-child{
-
-    border-right:none;
-}
-td{
-    padding:15px;
-    border-right: 5px solid #ffffffb6;
-    border-left: 5px solid #ffffffb6;
-    text-align: right;
-
-    & span{
-        font-size: 15px;
-    }
-}
-
-td:last-child{
-    border-right:none;
-
-}
-
-/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ *
-
-
-
-.photo{
-    & .list_cart {
-        grid-template-columns:minmax(300px, 0.1fr) minmax(300px, 0.5fr) minmax(300px, 0.8fr) minmax(300px, 2fr);
-    .photo_item{
-        height: 360px !important;
-
-    }
-}
-}
-
-
-
-/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ *
-
-
-.block_form{
-    position: fixed;
-    background-color: rgb(30, 30, 30);
-    top: 20px;
-    bottom: 20px;
-    left: 50px;
-    right: 50px;
-    border-radius: 45px;
-}
-.form_hidden{
-    display: none;
-} */
 .list_cart {
   grid-template-columns: minmax(220px, 1fr);
 }
@@ -568,9 +382,11 @@ td:last-child{
   font-size: 80px;
 }
 .list_cart .rull_item article h4 {
-  position: absolute;
-  z-index: 2;
   bottom: 0;
+  font-size: 20px;
+}
+.list_cart .rull_item article h4::after {
+  display: none;
 }
 
 @media (min-width: 820px) {
@@ -604,6 +420,9 @@ td:last-child{
 }
 .present .list_cart .present_item h4 {
   bottom: 25px;
+}
+.present .list_cart .present_item h4::after {
+  display: none;
 }
 .present .list_cart .present_item p {
   right: 25px;
@@ -698,12 +517,11 @@ td:last-child {
   transform: translate(-50%, -50%);
 }
 .form form input {
-  width: 480px;
-  padding: 25px 45px;
-  border-radius: 45px;
+  padding: 8px 8px;
+  border-radius: 25px;
   font-size: 18px;
 }
 .form form .link [type=button] {
-  padding: 15px 25px;
-  border-radius: 50px;
+  padding: 8px 8px;
+  border-radius: 25%;
 }/*# sourceMappingURL=index.css.map */
